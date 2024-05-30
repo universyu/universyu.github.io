@@ -44,7 +44,7 @@ const About = ({setPlay1,setPlay2}) => {
                     <h3>功能简介</h3>
                     <ul>
                         <li>1.滑动导航，方便浏览</li>
-                        <li>2.通过我的网站，您只需点击右上角Connect With Me按钮即可直接向我发送消息</li>
+                        <li>2.通过我的网站，您只需点击右上角Connect With Me或者滑动到页面底部即可直接向我发送消息</li>
                     </ul>
                 </div>
             </div>
