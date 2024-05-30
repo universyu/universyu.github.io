@@ -1,0 +1,25 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    min-height: 75vh;
+}
+.hero img{
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+}
+.hero span{
+    background: linear-gradient(267deg,#DA7C25,#B923E1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    padding: 3px 3px;
+    text-align: center;
+}
+.hero h3{
+    font-size: 24px;
+}

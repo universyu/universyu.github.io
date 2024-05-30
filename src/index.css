@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 133, 255, 0.82);
+
+}
+body{
+    height: 100%;
+    background: #161513;
+    color: white;
+}
+li{
+    list-style: none;
+}
