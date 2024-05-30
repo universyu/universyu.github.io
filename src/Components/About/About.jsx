@@ -37,7 +37,7 @@ const About = ({setPlay1,setPlay2}) => {
             <hr/>
             <div className="project" style={{paddingLeft: "15%"}}>
                 <div className="descript">
-                    <h2>一、个人简历网页：<a href="http://countingstars.cc">http://countingstars.cc</a><span>对应的github链接：<a
+                    <h2>一、个人简历网页：<a href="https://countingstars.cc">https://countingstars.cc</a><span>对应的github链接：<a
                         href="https://github.com/universyu/universyu.github.io">https://github.com/universyu/universyu.github.io</a></span></h2>
                     <p>框架：React（vite）</p>
                     <br/>
@@ -51,8 +51,8 @@ const About = ({setPlay1,setPlay2}) => {
             <div className="space"></div>
             <div className="project" style={{paddingLeft: "15%"}}>
                 <div className="descript">
-                    <h2>二、AI（Gemini）克隆网页：<a href="http://gemini.countingstars.cc"
-                    >http://gemini.countingstars.cc</a><span>对应的github链接：<a
+                    <h2>二、AI（Gemini）克隆网页：<a href="https://gemini.countingstars.cc"
+                    >https://gemini.countingstars.cc</a><span>对应的github链接：<a
                         href="https://github.com/universyu/geminiClone">https://github.com/universyu/geminiClone</a></span>
                     </h2>
                     <p>全栈项目，前端React（vite），后端nodejs（Koa）</p>
@@ -78,8 +78,8 @@ const About = ({setPlay1,setPlay2}) => {
             <div className="space"></div>
             <div className="project" style={{paddingLeft: "15%"}}>
                 <div className="descript">
-                    <h2>三、全响应式学校官网：<a href="http://edusity.countingstars.cc"
-                    >http://edusity.countingstars.cc</a><span>对应的github链接：<a
+                    <h2>三、全响应式学校官网：<a href="https://edusity.countingstars.cc"
+                    >https://edusity.countingstars.cc</a><span>对应的github链接：<a
                         href="https://github.com/universyu/completeRespon">https://github.com/universyu/completeRespon</a></span>
                     </h2>
                     <p>框架：React（vite）</p>
@@ -103,12 +103,12 @@ const About = ({setPlay1,setPlay2}) => {
                 }}>
 
                     <iframe
-                        src="http://edusity.countingstars.cc"
+                        src="https://edusity.countingstars.cc"
                         style={{width: '69%', height: '100%', border: 'none'}}
                         title="Edusity"
                     />
                     <iframe
-                        src="http://edusity.countingstars.cc"
+                        src="https://edusity.countingstars.cc"
                         style={{width: '39%', height: '100%', border: 'none'}}
                         title="Edusity"
                     />
@@ -146,8 +146,8 @@ const About = ({setPlay1,setPlay2}) => {
             <div className="space"></div>
             <div className="project" style={{paddingLeft: "15%"}}>
                 <div className="descript">
-                    <h2>五、小米商城样式设计：<a href="http://xiaomi.countingstars.cc"
-                    >http://xiaomi.countingstars.cc</a><span>对应的github链接：<a
+                    <h2>五、小米商城样式设计：<a href="https://xiaomi.countingstars.cc"
+                    >https://xiaomi.countingstars.cc</a><span>对应的github链接：<a
                         href="https://github.com/universyu/xiaomi">https://github.com/universyu/xiaomi</a></span>
                     </h2>
                     <p>html、css项目</p>
