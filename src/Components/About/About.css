@@ -29,11 +29,9 @@ li{
     text-align: left;
     font-size: 20px;
 }
-hr{
+.space{
     width: 100vw;
     border: none;
-    background: linear-gradient(to right, #ea26c9, #aea7f8, #ea26c9);
-    height: 1px;
     margin: 30px 0;
 }
 .preview{

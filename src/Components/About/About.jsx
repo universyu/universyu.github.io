@@ -34,11 +34,11 @@ const About = ({setPlay1,setPlay2}) => {
     return (
         <div className={'about'}>
             <img src={projects} style={{width: 200, marginBottom: '20px', paddingLeft: "15%"}} alt=""/>
-
+            <hr/>
             <div className="project" style={{paddingLeft: "15%"}}>
                 <div className="descript">
                     <h2>一、个人简历网页：<a href="http://countingstars.cc">http://countingstars.cc</a><span>对应的github链接：<a
-                        href="">...</a></span></h2>
+                        href="https://github.com/universyu/universyu.github.io">https://github.com/universyu/universyu.github.io</a></span></h2>
                     <p>框架：React（vite）</p>
                     <br/>
                     <h3>功能简介</h3>
@@ -48,7 +48,7 @@ const About = ({setPlay1,setPlay2}) => {
                     </ul>
                 </div>
             </div>
-            <hr/>
+            <div className="space"></div>
             <div className="project" style={{paddingLeft: "15%"}}>
                 <div className="descript">
                     <h2>二、AI（Gemini）克隆网页：<a href="http://gemini.countingstars.cc"
@@ -75,7 +75,7 @@ const About = ({setPlay1,setPlay2}) => {
                     }}/>
                 </div>
             </div>
-            <hr/>
+            <div className="space"></div>
             <div className="project" style={{paddingLeft: "15%"}}>
                 <div className="descript">
                     <h2>三、全响应式学校官网：<a href="http://edusity.countingstars.cc"
@@ -114,7 +114,7 @@ const About = ({setPlay1,setPlay2}) => {
                     />
                 </div>
             </div>
-            <hr/>
+            <div className="space"></div>
             <div className="project" style={{paddingLeft: "15%"}}>
                 <div className="descript">
                     <h2>四、ebook知识文档：
@@ -143,7 +143,7 @@ const About = ({setPlay1,setPlay2}) => {
                     }}/>
                 </div>
             </div>
-            <hr/>
+            <div className="space"></div>
             <div className="project" style={{paddingLeft: "15%"}}>
                 <div className="descript">
                     <h2>五、小米商城样式设计：<a href="http://xiaomi.countingstars.cc"
@@ -158,37 +158,36 @@ const About = ({setPlay1,setPlay2}) => {
                     </ul>
                 </div>
                 <h3 style={{marginTop: 20,paddingLeft:"47%"}}>效果预览</h3>
-                <div className="s" style={{
-                }}>
-                        <img className={'next-btn'} src={next_icon} alt="" onClick={slideForward}/>
-                        <img className={'back-btn'} src={back_icon} alt="" onClick={slideBackward}/>
-                        <div className={'slider'}>
-                            <ul ref={sli}>
-                                <li>
-                                    <div className="slide">
-                                        <img src={x1} alt=""/>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="slide">
-                                        <img src={x2} alt=""/>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="slide">
-                                        <img src={x3} alt=""/>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="slide">
-                                        <img src={x4} alt=""/>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                <div className="s" style={{}}>
+                    <img className={'next-btn'} src={next_icon} alt="" onClick={slideForward}/>
+                    <img className={'back-btn'} src={back_icon} alt="" onClick={slideBackward}/>
+                    <div className={'slider'}>
+                        <ul ref={sli}>
+                            <li>
+                                <div className="slide">
+                                    <img src={x1} alt=""/>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="slide">
+                                    <img src={x2} alt=""/>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="slide">
+                                    <img src={x3} alt=""/>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="slide">
+                                    <img src={x4} alt=""/>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <hr/>
+
         </div>
     );
 };

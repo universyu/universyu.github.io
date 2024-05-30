@@ -16,10 +16,12 @@ const Navbar = () => {
         <nav className={`${sticky && 'navbar'}`}>
             <img src={logo} alt=""/>
             <ul className={'nav-menu'}>
-                <li><Link style={{color: 'white'}} to={'hero'} smooth={true} offset={0} duration={500}>Home</Link></li>
-                <li><Link style={{color: 'white'}} to={'about'} smooth={true} offset={0} duration={500}>Projects</Link></li>
-
-                <li className={'nav-connect'}>Connect With Me</li>
+                <li><Link style={{color: 'white'}} to={'hero'} smooth={true} offset={0} duration={500}>简介</Link></li>
+                <li><Link style={{color: 'white'}} to={'about'} smooth={true} offset={0} duration={500}>项目</Link></li>
+                <li><Link style={{color: 'white'}} to={'comp'} smooth={true} offset={0} duration={500}>竞赛</Link></li>
+                <li><Link style={{color: 'white'}} to={'ctf'} smooth={true} offset={0} duration={500}>网络安全</Link></li>
+                <li><Link style={{color: 'white'}} to={'others'} smooth={true} offset={0} duration={500}>其他</Link></li>
+                <li className={'nav-connect'}><Link style={{color: 'white'}} to={'contact'} smooth={true} offset={0} duration={500}>Connect With Me</Link></li>
             </ul>
         </nav>
     );

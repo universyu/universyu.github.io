@@ -1,0 +1,22 @@
+.competition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.competition ul{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.competition ul li{
+    font-size: 25px;
+}
+.competition p{
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+}
