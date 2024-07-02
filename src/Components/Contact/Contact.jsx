@@ -36,10 +36,7 @@ const Contact = () => {
             <img src={contact_icon} alt=""/>
             <div className="contact-col">
                 <h3>Send us a message <img src={msg_icon} alt=""/></h3>
-                <ul>
-                    <li><img src={mail_icon} alt=""/>Lzy500429@gmail.com</li>
-                    <li><img src={phone_icon} alt=""/>13728332248</li>
-                </ul>
+                
             </div>
             <div className="contact-col">
                 <form onSubmit={onSubmit}>
